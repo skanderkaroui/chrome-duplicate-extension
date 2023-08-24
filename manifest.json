@@ -1,0 +1,6 @@
+{
+    "manifest_version":3,
+    "name":"Duplicate Calendar",
+    "version":"1.0",
+    "description":"A Chrome extension that lets you duplicate an event in the calendar with a click"
+}
