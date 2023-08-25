@@ -5,6 +5,14 @@
     "description":"A Chrome extension that lets you duplicate an event in the calendar with a click",
     "icons":{
         "1":"images/calendar_small_icon.png"
-    }
+    },
+    "content_scripts":[
+        {
+            "js":["scripts/content.js"],
+            "matches":[
+                "https://calendar.google.com/calendar/*"
+            ]
+        }
+    ]
 
 }
